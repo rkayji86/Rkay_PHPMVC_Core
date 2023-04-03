@@ -1,13 +1,22 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 0);
-error_reporting(E_ALL & ~E_NOTICE);
+
+use app\controllers\AuthController;
+use app\controllers\SiteController;
 use app\core\Application;
 require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . "vendor" . DIRECTORY_SEPARATOR . "autoload.php";
 
 $app = new Application(dirname(__DIR__));
 
-$app->router->get('/', 'home');
+$app->router->get('/', [SiteController::class,'home']);
 
+$app->router->get('/contact',[SiteController::class,'contact']);
+
+$app->router->post('/contact',[SiteController::class,'handleData']);
+
+
+$app->router->get('/login',[AuthController::class,'login']);
+$app->router->post('/login',[AuthController::class,'login']);
+$app->router->get('/register',[AuthController::class,'register']);
+$app->router->post('/register',[AuthController::class,'register']);
 
 $app->run();
