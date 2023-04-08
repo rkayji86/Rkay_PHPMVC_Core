@@ -1,0 +1,17 @@
+{
+  "name": "mrrka/rkay_phpmvc_core-1",
+  "authors": [
+    {
+      "name": "rkayji86",
+      "email": "mrrkayj86@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "."
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.5"
+  }
+}
