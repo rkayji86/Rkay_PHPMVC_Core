@@ -29,14 +29,23 @@ use app\core\Application;
                     <a class="nav-link" href="/contact">Contact</a>
                 </li>
             </ul>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/login">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/register">Register</a>
-                </li>
-            </ul>
+            <?php if (Application::isGest()): ?>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register">Register</a>
+                    </li>
+                </ul>
+            <?php else: ?>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                           href="/logout">Welcome <?= ucfirst(Application::$app->user->getDisplayName()) ?> (Logout)</a>
+                    </li>
+                </ul>
+            <?php endif; ?>
         </div>
     </div>
 </nav>
