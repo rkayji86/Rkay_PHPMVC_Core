@@ -42,6 +42,10 @@ use app\core\Application;
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page"
+                           href="/profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
                            href="/logout">Welcome <?= ucfirst(Application::$app->user->getDisplayName()) ?> (Logout)</a>
                     </li>
                 </ul>
