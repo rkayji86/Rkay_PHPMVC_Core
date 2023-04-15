@@ -1,6 +1,8 @@
 <?php
 
-namespace app\core;
+namespace app\core\db;
+
+use app\core\Application;
 
 class Database
 {
@@ -65,6 +67,11 @@ class Database
         $str = implode(",", array_map(fn($m) => "('$m')", $migrations));
         $statement = $this->pdo->prepare("INSERT INTO migrations (migration) VALUES $str");
         $statement->execute();
+    }
+
+    public function prepare($sql)
+    {
+        return $this->pdo->prepare($sql);
     }
 
     protected function log($message)

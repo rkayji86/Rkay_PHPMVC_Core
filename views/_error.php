@@ -1,1 +1,4 @@
-<h1>Not found</h1>
+<?php
+/** @var $exception Exception */
+?>
+<h3><?= $exception->getCode() . ' - ' . $exception->getMessage() ?></h3>
