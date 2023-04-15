@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-use app\core\UserModel;
+use rkay\rkaymvc\UserModel;
 
 class User extends UserModel
 {

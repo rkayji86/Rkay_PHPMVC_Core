@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-use app\core\Model;
+use rkay\rkaymvc\Model;
 
 class ContactForm extends Model
 {

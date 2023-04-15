@@ -3,7 +3,7 @@
 ?>
     <h1>Create an Account</h1>
 
-<?php $form = \app\core\form\Form::begin("", "POST") ?>
+<?php $form = \rkay\rkaymvc\form\Form::begin("", "POST") ?>
 
     <div class="row">
         <div class="col"><?= $form->field($model, 'firstname') ?></div>
@@ -14,4 +14,4 @@
 <?= $form->field($model, 'password')->passwordField() ?>
 <?= $form->field($model, 'confirmPassword')->passwordField() ?>
     <button type="submit" class="btn btn-primary">Submit</button>
-<?php \app\core\form\Form::end() ?>
+<?php \rkay\rkaymvc\form\Form::end() ?>

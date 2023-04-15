@@ -2,8 +2,8 @@
 
 namespace app\models;
 
-use app\core\Application;
-use app\core\Model;
+use rkay\rkaymvc\Application;
+use rkay\rkaymvc\Model;
 
 class LoginForm extends Model
 {

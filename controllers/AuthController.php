@@ -2,13 +2,13 @@
 
 namespace app\controllers;
 
-use app\core\Application;
-use app\core\Controller;
-use app\core\middlewares\AuthMiddleware;
-use app\core\Request;
-use app\core\Response;
 use app\models\LoginForm;
 use app\models\User;
+use rkay\rkaymvc\Application;
+use rkay\rkaymvc\Controller;
+use rkay\rkaymvc\middlewares\AuthMiddleware;
+use rkay\rkaymvc\Request;
+use rkay\rkaymvc\Response;
 
 class AuthController extends Controller
 {

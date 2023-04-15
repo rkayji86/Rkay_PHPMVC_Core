@@ -2,11 +2,11 @@
 
 namespace app\controllers;
 
-use app\core\Application;
-use app\core\Controller;
-use app\core\Request;
-use app\core\Response;
 use app\models\ContactForm;
+use rkay\rkaymvc\Application;
+use rkay\rkaymvc\Controller;
+use rkay\rkaymvc\Request;
+use rkay\rkaymvc\Response;
 
 class SiteController extends Controller
 {

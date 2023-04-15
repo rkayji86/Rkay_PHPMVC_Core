@@ -13,6 +13,7 @@
   },
   "require": {
     "vlucas/phpdotenv": "^5.5",
-    "ext-pdo": "*"
+    "ext-pdo": "*",
+    "rkay/rkaymvc": "1.0.1.0"
   }
 }

@@ -1,10 +1,10 @@
 <?php
-/** @var $this \app\core\View */
+/** @var $this \rkay\rkaymvc\View */
 /** @var $model \app\models\ContactForm */
 $this->title = 'Contact';
 
-use app\core\form\Form;
-use app\core\form\TextareaField;
+use rkay\rkaymvc\form\Form;
+use rkay\rkaymvc\form\TextareaField;
 
 ?>
 <h1>Contact us</h1>

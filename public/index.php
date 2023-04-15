@@ -2,8 +2,8 @@
 
 use app\controllers\AuthController;
 use app\controllers\SiteController;
-use app\core\Application;
 use app\models\User;
+use rkay\rkaymvc\Application;
 
 require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . "vendor" . DIRECTORY_SEPARATOR . "autoload.php";
 $dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
