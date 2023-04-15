@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\db;
+namespace rkay\rkaymvc\db;
 
-use app\core\Application;
-use app\core\Model;
+use rkay\rkaymvc\Application;
+use rkay\rkaymvc\Model;
 
 abstract class DbModel extends Model
 {

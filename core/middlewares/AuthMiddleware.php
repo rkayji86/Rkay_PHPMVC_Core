@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\middlewares;
+namespace rkay\rkaymvc\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use rkay\rkaymvc\Application;
+use rkay\rkaymvc\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

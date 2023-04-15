@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace rkay\rkaymvc;
 
-use app\core\exception\NotFoundException;
+use rkay\rkaymvc\exception\NotFoundException;
 
 class Router
 {

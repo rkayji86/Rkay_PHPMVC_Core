@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace rkay\rkaymvc;
 
-use app\core\middlewares\BaseMiddleware;
+use rkay\rkaymvc\middlewares\BaseMiddleware;
 
 class Controller
 {

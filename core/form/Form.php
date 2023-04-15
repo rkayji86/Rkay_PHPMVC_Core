@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace rkay\rkaymvc\form;
 
-use app\core\Model;
+use rkay\rkaymvc\Model;
 
 class Form
 {

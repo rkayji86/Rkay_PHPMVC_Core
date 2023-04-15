@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace rkay\rkaymvc;
 
-use app\core\db\DbModel;
+use rkay\rkaymvc\db\DbModel;
 
 abstract class UserModel extends DbModel
 {

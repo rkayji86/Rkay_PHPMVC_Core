@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace rkay\rkaymvc\db;
 
-use app\core\Application;
+use rkay\rkaymvc\Application;
 
 class Database
 {

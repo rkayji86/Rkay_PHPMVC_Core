@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core;
+namespace rkay\rkaymvc;
 
-use app\core\db\Database;
 use app\models\User;
+use rkay\rkaymvc\db\Database;
 
 class Application
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\form;
+namespace rkay\rkaymvc\form;
 
 class TextareaField extends BaseField
 {

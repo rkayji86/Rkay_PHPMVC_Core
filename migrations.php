@@ -1,6 +1,6 @@
 <?php
 
-use app\core\Application;
+use rkay\rkaymvc\Application;
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . "vendor" . DIRECTORY_SEPARATOR . "autoload.php";
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
