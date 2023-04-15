@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c70975b08b0b27c23416a4b3145ccb1a",
+    "content-hash": "61d43b2c71bf8b7f9c638264a67668f0",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -145,16 +145,16 @@
         },
         {
             "name": "rkay/rkaymvc",
-            "version": "1.0.1.0",
+            "version": "1.0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rkayji86/rkay-rkaymvc.git",
-                "reference": "9847206413026af291aac4d71bee624d46fad898"
+                "reference": "6b52022968c7ef47c45dcbe910b68c8b0bcd9258"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rkayji86/rkay-rkaymvc/zipball/9847206413026af291aac4d71bee624d46fad898",
-                "reference": "9847206413026af291aac4d71bee624d46fad898",
+                "url": "https://api.github.com/repos/rkayji86/rkay-rkaymvc/zipball/6b52022968c7ef47c45dcbe910b68c8b0bcd9258",
+                "reference": "6b52022968c7ef47c45dcbe910b68c8b0bcd9258",
                 "shasum": ""
             },
             "require": {
@@ -176,9 +176,9 @@
             ],
             "support": {
                 "issues": "https://github.com/rkayji86/rkay-rkaymvc/issues",
-                "source": "https://github.com/rkayji86/rkay-rkaymvc/tree/dev1.0.0"
+                "source": "https://github.com/rkayji86/rkay-rkaymvc/tree/dev-master"
             },
-            "time": "2023-04-15T07:59:31+00:00"
+            "time": "2023-04-15T09:31:53+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
